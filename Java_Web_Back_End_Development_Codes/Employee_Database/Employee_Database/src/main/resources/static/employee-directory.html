@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Employee Directory</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="container mt-4">
+
+    <h3>Employee Directory</h3>
+    <hr>
+    <!-- Save/Update Employee Form -->
+    <form action="#" th:action="@{/employees/save}" th:object= "${employee}" method="POST" class ="mb-4">
+        <!-- HIDDEN INPUT: Carries entity ID to distinguish between SQL INSERT (id = 0) and UPDATE (id > 0) -->
+        <input type="hidden" th:field="*{id}" />
+        <div class="row g-3">
+            <div class = "col">
+                <input type="text" th:field="*{firstName}" class="form-control" placeholder="First Name" required/>
+            </div>
+            <div class = "col">
+                <input type="text" th:field="*{lastName}" class="form-control" placeholder="Last Name" required/>
+            </div>
+            <div class = "col">
+                <input type="text" th:field="*{email}" class="form-control" placeholder="Email" required/>
+            </div>
+            <div class = "col">
+                <button type="submit" class="btn btn-info">Save Employee</button>
+            </div>
+        </div>
+    </form>
+
+    <!-- Entity Data Table Iteration -->
+    <table class="table table-bordered table-striped">
+        <thead class = "table-dark">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr th:each="tempEmployee : employees" ><tdth:text = "{tempEmployee.firstName}"/>
+            <td th:text = "tempEmployee.lastName"/><tdth:text = "{tempEmployee.email}"/>
+                <!-- Update Action: Binds ID parameter to populate form -->
+                <a th:href= "@{/employees/showFormForUpdate(employeeId=${tempEmployee.id})}"
+                   class = "btn btn-info btn-sm">Update</a>
+
+                <!-- Delete Action: Interactive JavaScript trigger -->
+                <a th:href= "@{/employees/delete(employeeId=${tempEmployee.id})}"
+                   class = "btn btn-danger btn-sm"
+                   onclick="if (!(confirm('Are you sure you want to delete this employee?'))) return false; ">Delete</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

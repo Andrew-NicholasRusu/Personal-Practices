@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Custom Login Page</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h3>Custom Application Login</h3>
+
+    <!-- Conditional error notification on authentication failure -->
+    <div th:if= "param.error" style = "color:red">
+        Invalid username or password.
+    </div>
+
+    <!-- Conditional logout notification -->
+    <div th:if= "param.logout" style = "color:green">
+        You have been logged out.
+    </div>
+
+    <form action ="#" th:action="@{/authenticateTheUser}" method="POST">
+
+        <div>
+            <label for="username">Username:</label>
+            <!-- Input name parameter MUST strictly match 'username' -->
+            <input type ="text" id = "username" name ="username" placeholder="Username" required/>
+        </div>
+
+        <div>
+            <label for="password">Password:</label>
+            <!-- Input name parameter MUST strictly match 'password' -->
+            <input type ="password" id = "password" name ="password" placeholder="" required/>
+        </div>
+
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>

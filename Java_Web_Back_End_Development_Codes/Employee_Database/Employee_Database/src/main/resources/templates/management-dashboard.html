@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/springsecurity5">
+<head>
+    <title>Management Dashboard</title>
+</head>
+<body>
+    <h3>System Operations</h3>
+
+    <!-- Visible to users assigned the EMPLOYEE role -->
+    <div sec:authorize="hasRole('EMPLOYEE')">
+        <p>Employee Portal: View standard tasks and procedures.</p>
+    </div>
+
+    <!-- Visible exclusively to users assigned the MANAGER role -->
+    <div sec:authorize="hasRole('MANAGER')">
+        <a th:href="@{/leaders/reports}" class ="btn btn-primary">View Leadership Reports</a>
+    </div>
+
+    <!-- Visible exclusively to users assigned the ADMIN role -->
+    <div sec:authorize="hasRole('ADMIN')">
+        <a th:href="@{/systems/settings}" class ="btn btn-danger">Access System Settings</a>
+    </div>
+</body>
+</html>

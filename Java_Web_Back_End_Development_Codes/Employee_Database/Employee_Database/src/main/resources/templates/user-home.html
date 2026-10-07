@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+    xmlns:sec="http://www.thymeleaf.org/extras/springsecurity5">
+<head>
+    <title>User Home</title>
+</head>
+<body>
+    <h2>User Identity Overview</h2>
+
+    <!-- Renders the authenticated principal username -->
+    <p>User: <span sec:authentication="principal.username"></span></p>
+
+    <!-- Renders the granted authority roles -->
+    <p>Role(s): <span sec:authentication="pricipal.authorities"></span></p>
+</body>
+</html>
