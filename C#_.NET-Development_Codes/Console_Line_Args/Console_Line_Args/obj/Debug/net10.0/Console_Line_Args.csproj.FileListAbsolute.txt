@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\Console_Line_Args\Console_Line_Args\bin\Debug\net10.0\Console_Line_Args.exe
+C:\Users\User\source\repos\Console_Line_Args\Console_Line_Args\bin\Debug\net10.0\Console_Line_Args.deps.json
+C:\Users\User\source\repos\Console_Line_Args\Console_Line_Args\bin\Debug\net10.0\Console_Line_Args.runtimeconfig.json
+C:\Users\User\source\repos\Console_Line_Args\Console_Line_Args\bin\Debug\net10.0\Console_Line_Args.dll
+C:\Users\User\source\repos\Console_Line_Args\Console_Line_Args\bin\Debug\net10.0\Console_Line_Args.pdb
+C:\Users\User\source\repos\Console_Line_Args\Console_Line_Args\obj\Debug\net10.0\Console_Line_Args.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Console_Line_Args\Console_Line_Args\obj\Debug\net10.0\Console_Line_Args.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Console_Line_Args\Console_Line_Args\obj\Debug\net10.0\Console_Line_Args.AssemblyInfo.cs
+C:\Users\User\source\repos\Console_Line_Args\Console_Line_Args\obj\Debug\net10.0\Console_Line_Args.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Console_Line_Args\Console_Line_Args\obj\Debug\net10.0\Console_Line_Args.dll
+C:\Users\User\source\repos\Console_Line_Args\Console_Line_Args\obj\Debug\net10.0\refint\Console_Line_Args.dll
+C:\Users\User\source\repos\Console_Line_Args\Console_Line_Args\obj\Debug\net10.0\Console_Line_Args.pdb
+C:\Users\User\source\repos\Console_Line_Args\Console_Line_Args\obj\Debug\net10.0\Console_Line_Args.genruntimeconfig.cache
+C:\Users\User\source\repos\Console_Line_Args\Console_Line_Args\obj\Debug\net10.0\ref\Console_Line_Args.dll
+C:\Users\User\source\repos\Console_Line_Args\Console_Line_Args\obj\Debug\net10.0\Console_.FF4CAB2D.Up2Date
