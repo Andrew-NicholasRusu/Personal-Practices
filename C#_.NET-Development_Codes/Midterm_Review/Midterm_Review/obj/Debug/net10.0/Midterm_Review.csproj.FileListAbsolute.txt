@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\Midterm_Review\Midterm_Review\bin\Debug\net10.0\Midterm_Review.exe
+C:\Users\User\source\repos\Midterm_Review\Midterm_Review\bin\Debug\net10.0\Midterm_Review.deps.json
+C:\Users\User\source\repos\Midterm_Review\Midterm_Review\bin\Debug\net10.0\Midterm_Review.runtimeconfig.json
+C:\Users\User\source\repos\Midterm_Review\Midterm_Review\bin\Debug\net10.0\Midterm_Review.dll
+C:\Users\User\source\repos\Midterm_Review\Midterm_Review\bin\Debug\net10.0\Midterm_Review.pdb
+C:\Users\User\source\repos\Midterm_Review\Midterm_Review\obj\Debug\net10.0\Midterm_Review.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Midterm_Review\Midterm_Review\obj\Debug\net10.0\Midterm_Review.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Midterm_Review\Midterm_Review\obj\Debug\net10.0\Midterm_Review.AssemblyInfo.cs
+C:\Users\User\source\repos\Midterm_Review\Midterm_Review\obj\Debug\net10.0\Midterm_Review.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Midterm_Review\Midterm_Review\obj\Debug\net10.0\Midterm_Review.dll
+C:\Users\User\source\repos\Midterm_Review\Midterm_Review\obj\Debug\net10.0\refint\Midterm_Review.dll
+C:\Users\User\source\repos\Midterm_Review\Midterm_Review\obj\Debug\net10.0\Midterm_Review.pdb
+C:\Users\User\source\repos\Midterm_Review\Midterm_Review\obj\Debug\net10.0\Midterm_Review.genruntimeconfig.cache
+C:\Users\User\source\repos\Midterm_Review\Midterm_Review\obj\Debug\net10.0\ref\Midterm_Review.dll
+C:\Users\User\source\repos\Midterm_Review\Midterm_Review\obj\Debug\net10.0\Midterm_.4F357DC3.Up2Date
