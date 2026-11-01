@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\LINQ_CSharp_Applications\bin\Debug\net10.0\LINQ_CSharp_Applications.exe
+C:\Users\User\source\repos\LINQ_CSharp_Applications\bin\Debug\net10.0\LINQ_CSharp_Applications.deps.json
+C:\Users\User\source\repos\LINQ_CSharp_Applications\bin\Debug\net10.0\LINQ_CSharp_Applications.runtimeconfig.json
+C:\Users\User\source\repos\LINQ_CSharp_Applications\bin\Debug\net10.0\LINQ_CSharp_Applications.dll
+C:\Users\User\source\repos\LINQ_CSharp_Applications\bin\Debug\net10.0\LINQ_CSharp_Applications.pdb
+C:\Users\User\source\repos\LINQ_CSharp_Applications\obj\Debug\net10.0\LINQ_CSharp_Applications.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\LINQ_CSharp_Applications\obj\Debug\net10.0\LINQ_CSharp_Applications.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\LINQ_CSharp_Applications\obj\Debug\net10.0\LINQ_CSharp_Applications.AssemblyInfo.cs
+C:\Users\User\source\repos\LINQ_CSharp_Applications\obj\Debug\net10.0\LINQ_CSharp_Applications.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\LINQ_CSharp_Applications\obj\Debug\net10.0\LINQ_CSharp_Applications.dll
+C:\Users\User\source\repos\LINQ_CSharp_Applications\obj\Debug\net10.0\refint\LINQ_CSharp_Applications.dll
+C:\Users\User\source\repos\LINQ_CSharp_Applications\obj\Debug\net10.0\LINQ_CSharp_Applications.pdb
+C:\Users\User\source\repos\LINQ_CSharp_Applications\obj\Debug\net10.0\LINQ_CSharp_Applications.genruntimeconfig.cache
+C:\Users\User\source\repos\LINQ_CSharp_Applications\obj\Debug\net10.0\ref\LINQ_CSharp_Applications.dll
+C:\Users\User\source\repos\LINQ_CSharp_Applications\obj\Debug\net10.0\LINQ_CSh.42143E69.Up2Date
